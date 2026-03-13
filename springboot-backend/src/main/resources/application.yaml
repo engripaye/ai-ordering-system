@@ -12,6 +12,7 @@ spring:
       ddl-auto: update
     show-sql: true
 
-  redis:
-    host: localhost
-    port: 6379
+  data:
+    redis:
+      host: localhost
+      port: 6379
